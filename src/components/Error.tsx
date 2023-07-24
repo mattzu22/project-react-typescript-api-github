@@ -1,6 +1,4 @@
-import React from 'react'
-
- export const Error = () => {
+export const Error = () => {
   return (
     <div>
         <p>Usuário não encontrado</p>
