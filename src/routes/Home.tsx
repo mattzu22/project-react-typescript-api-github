@@ -13,7 +13,7 @@ export const Home = () => {
     setError(false)
     setUser(null)
 
-    const res = await fetch(`http://api.github.com/users/${userName}`);
+    const res = await fetch(`https://api.github.com/users/${userName}`);
     const data = await res.json();
 
     if(res.status == 404){
